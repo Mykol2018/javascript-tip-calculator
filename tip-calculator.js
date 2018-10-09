@@ -4,12 +4,12 @@ function calculateTip() {
   var serviceQual = document.getElementById("serviceQual").value;
   var numOfPeople = document.getElementById("peopleamt").value;
 
-  //validate input
+  //validar la entrada
   if (billAmt === "" || serviceQual == 0) {
-    alert("Please enter values");
+    alert("Entrar valores");
     return;
   }
-  //Check to see if this input is empty or less than or equal to 1
+  //Vemos si el campo está vacio o inferior o igual a 1
   if (numOfPeople === "" || numOfPeople <= 1) {
     numOfPeople = 1;
     document.getElementById("each").style.display = "none";
@@ -17,23 +17,23 @@ function calculateTip() {
     document.getElementById("each").style.display = "block";
   }
 
-  //Calculate tip
+  //Calcular la propina
   var total = (billAmt * serviceQual) / numOfPeople;
-  //round to two decimal places
+  //solo dos decimales
   total = Math.round(total * 100) / 100;
-  //next line allows us to always have two digits after decimal point
+  //siempre guardamos 2 digitos despues del punto decimal
   total = total.toFixed(2);
-  //Display the tip
+  //Mostrar la propina
   document.getElementById("totalTip").style.display = "block";
   document.getElementById("tip").innerHTML = total;
 
 }
 
-//Hide the tip amount on load
+//Escondemos la propina al inicio
 document.getElementById("totalTip").style.display = "none";
 document.getElementById("each").style.display = "none";
 
-//click to call function
+//Llamar la función al hacer clic
 document.getElementById("calculate").onclick = function() {
   calculateTip();
 
