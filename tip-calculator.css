@@ -107,7 +107,7 @@ button:active {
 }
 
 #totalTip:before {
-  content: "Tip amount";
+  content: "Propina";
   font-size: 20px;
   font-weight: bold;
   display: block;
