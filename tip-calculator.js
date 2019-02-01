@@ -1,9 +1,9 @@
 //Calculate Tip
-function calculateTip() { alert("Hello");
+function calculateTip() {
   var MontoCuenta = document.getElementById("MontoCuenta").value;
   var CualidadServicio = document.getElementById("CualidadServicio").value;
   var NumPersonas = document.getElementById("NumPersonas").value;
-alert(MontoCuenta); alert(CualidadServicio); alert(NumPersonas);
+  
   //validar la entrada
   if (MontoCuenta === "" || CualidadServicio == 0) {
     alert("Entrar valores");
