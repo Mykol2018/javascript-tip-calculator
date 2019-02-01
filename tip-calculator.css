@@ -52,7 +52,7 @@ input {
   padding: 5px 5px 8px 8px;
 }
 
-#billamt:focus {
+#monto_cuenta:focus {
   background: #fff;
   border: 3px solid #2980b9;
   outline: none;
