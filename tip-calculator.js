@@ -1,5 +1,5 @@
 //Calculate Tip
-function calculateTip() {
+function calculateTip() { alert("Hello");
   var MontoCuenta = document.getElementById("MontoCuenta").value;
   var CualidadServicio = document.getElementById("CualidadServicio").value;
   var NumPersonas = document.getElementById("NumPersonas").value;
