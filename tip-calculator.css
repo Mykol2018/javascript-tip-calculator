@@ -43,7 +43,7 @@ input {
   padding-left: 20px;
 }
 
-#billamt {
+#monto_cuenta {
   font-size: 14px;
   /*color: #2980b9;*/
   color: #red;
@@ -58,7 +58,7 @@ input {
   outline: none;
 }
 
-#peopleamt {
+#NumPersonas {
   width: 60%;
   padding: 5px 5px 8px 8px;
   margin-left: 20px;
@@ -71,7 +71,7 @@ input {
   display: inline;
 }
 
-#serviceQual {
+#CualidadServicio {
   padding: 13px 13px 20px 20px;
   margin-left: 20px;
   font-size: 25px;
@@ -100,13 +100,13 @@ button:active {
   top: 1px;
 }
 
-#totalTip {
+#TotalPropina {
   font-size: 30px;
   margin-top: 5px;
   text-align: center;
 }
 
-#totalTip:before {
+#TotalPropina:before {
   content: "Propina";
   font-size: 20px;
   font-weight: bold;
@@ -114,12 +114,12 @@ button:active {
   text-transform: uppercase;
 }
 
-#totalTip sup {
+#TotalPropina sup {
   font-size: 20px;
   top: -18px;
 }
 
-#totalTip small {
+#TotalPropina small {
   font-size: 20px;
   font-weight: bold;
   display: block;
