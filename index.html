@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head>	<!--https://mykol2018.github.io/javascript-tip-calculator/-->
 		<title>Calculadora de Propina en Javascript</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="tip-calculator.css">
@@ -14,11 +14,11 @@
     <form>
       <p>Cuanto salió la cuenta?
         <p>
-          $ <input id="billamt" type="text" placeholder="Total">
+          $ <input id="monto_cuenta" type="text" placeholder="Total">
 
           <p>Cómo fue el servicio?
             <p>
-              <select id="serviceQual">
+              <select id="CualidadServicio">
             <option disabled selected value="0">-- Elegir una opción --</option>
             <option value="0.3">30&#37; &#45; Espectacular</option>
             <option value="0.2">20&#37; &#45; Bueno</option>
@@ -29,19 +29,19 @@
 
     </form>
     <p>Cuantas personas comieron?</p>
-    <input id="peopleamt" type="text" placeholder="Cantidad de personas"> personas
+    <input id="NumPersonas" type="text" placeholder="Cantidad de personas"> personas
     <button type="button" id="calculate">Calcular!</button>
 
   </div>
-  <!--calculator end-->
-  <div id="totalTip">
-    $<span id="tip">0.00</span>
+  <!--fin calculadora -->
+  <div id="TotalPropina">
+    $<span id="propina">0.00</span>
     <small id="each">cada uno</small>
   </div>
-  <!--totalTip end-->
+  <!--fin Propina-->
 
 </div>
-<!--container end-->
+<!--fin container-->
 
 <script type="text/javascript" src="tip-calculator.js"></script>
   </body>
