@@ -43,7 +43,7 @@ input {
   padding-left: 20px;
 }
 
-#monto_cuenta {
+#MontoCuenta {
   font-size: 14px;
   /*color: #2980b9;*/
   color: #red;
@@ -52,7 +52,7 @@ input {
   padding: 5px 5px 8px 8px;
 }
 
-#monto_cuenta:focus {
+#MontoCuenta:focus {
   background: #fff;
   border: 3px solid #2980b9;
   outline: none;
